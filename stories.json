@@ -1,0 +1,78 @@
+{
+    "start": {
+        "text": "You are an adventurer who has stumbled upon the entrance to the legendary Lost Library of Shadows, a place filled with forbidden knowledge and magical artifacts. Many have tried to explore its depths, but few have ever returned. Rumors say the library's magic is alive, protecting its secrets from those unworthy. You stand at the entrance to the library, its tall, dark doors slightly ajar, inviting you in. Strange symbols glow faintly along the walls, and you can sense the magic humming in the air.",
+        "options": {
+            "A": "Enter cautiously, you decide to step carefully, watching for any traps or magical surprises.",
+            "B": "Driven by excitement, you rush in quickly and boldly, eager to see what secrets lie within the library."
+        }
+    },
+    "A": {
+        "text": "The hall is dark and narrow, and your cautious steps allow you to notice small glimmers of light on the floor — pressure plates! You narrowly avoid them, grateful for your caution. As you continue, you find a hidden room off to the side with a faint glow within",
+        "options": {
+            "A1": "Enter the hidden room- you decide to investigate, curious about what the source of the glow is.",
+            "A2": "Ignore the room and continue down the hall- you'd nuch rather focus on reaching the main chambers of the library"
+        }
+    },
+    "A1": {
+        "text": "Inside, you find an orb of light floating above a pedestal, casting a soft glow. The air is thick with magic, and you feel a strange energy filling the room.",
+        "options": {
+            "A11": "Feeling compelled to the orb, you go and touch it.",
+            "A12": "You leave the orb alone, wanting to head down the hall."
+        }
+    },
+	"A11": {
+        "text": "You are transported into a hidden chamber of the library, finding yourself with knowledge beyond your imagination, but unable to leave as the orb holds you captive. Click on Stop to end..."
+        
+    },
+	"A12": {
+        "text": "You return to the main hall, where you safely navigate the library, learning secrets without triggering any traps. You leave the library wiser and with newfound knowledge.. Click on Stop to end..."
+        
+    },
+    "A2": {
+        "text": "You return to the main hall, where you safely navigate the library, learning secrets without triggering any traps. You leave the library wiser and with newfound knowledge."
+    },
+    "B": {
+        "text": "Your quick entrance activates a hidden mechanism, and the door slams shut behind you. Torches on the walls ignite with a blue flame, illuminating a long, ancient hallway filled with bookshelves covered in cobwebs. Ahead, you see a pedestal with a large, dusty tome resting on it..",
+        "options": {
+            "B1": "Inspect the item on the pedestal — You’re drawn to the old book, hoping it contains clues or spells",
+            "B2": "Ignore the item and look around the shelves — You want to explore the shelves for any hidden artifacts or scrolls"
+        }
+    },
+    "B1": {
+        "text": "As you open the book, you see strange symbols on the pages, glowing faintly. You feel a pulse of energy as the book’s power begins to seep into you.",
+        "options": {
+            "B11": "Read the symbols out loud.",
+            "B12": "Out of shock, you just close the book, not wanting to further interact with it"
+        }
+    },
+	"B11": {
+        "text": "The spell summons a guardian spirit that grants you a piece of the library’s knowledge, allowing you to escape with newfound magical abilities"
+    },
+	"B12": {
+        "text": "The shelves are filled with dusty scrolls, ancient manuscripts, and strange artifacts. You find a small, ornate vial glowing faintly among the items.",
+		"options": {
+            "B121": "You take the vial, stuffing it into your pocket",
+            "B122": "You leave the vial there, your purpose is only to explore."
+        }
+    },
+	"B121": {
+        "text": "As you're putting the vial in your pocket, you feel a faint warmth seeping from it, making you feel calm and comforted. However, as you continue walking through the library with it in your pocket, the vial feels hotter and hotter, and you see it glowing from your pocket. Trying to ignore it is difficult when the glow increasingly becomes blinding. Shadows have begun swirling around the room, drawn to you and the magic in the vial. It was too late, the vial was a trap for trespassers. It was a beacon that marks those unworthy of the library's secrets, you try to scream for help, but there is nobody there except for the shadows, who surround you, and close you into the darkness. Your fate has been sealed as the shadows pul you into the depths of the library, where you will forever remain as another secret in the Lost Library of Shadows."
+    },
+	"B122": {
+        "text": "You end up finding a hidden scroll that provides a map of the library, helping you escape easily with valuable information and a safe path out."
+    },
+    "B2": {
+        "text": "The shelves are filled with dusty scrolls, ancient manuscripts, and strange artifacts. You find a small, ornate vial glowing faintly among the items.",
+        "options": {
+            "B21": "You take the vial, stuffing it into your pocket.",
+            "B22": "You leave the vial there, your purpose is only to explore."
+        }
+    },
+	"B21": {
+		"text": "As you're putting the vial in your pocket, you feel a faint warmth seeping from it, making you feel calm and comforted. However, as you continue walking through the library with it in your pocket, the vial feels hotter and hotter, and you see it glowing from your pocket. Trying to ignore it is difficult when the glow increasingly becomes blinding. Shadows have begun swirling around the room, drawn to you and the magic in the vial. It was too late, the vial was a trap for trespassers. It was a beacon that marks those unworthy of the library's secrets, you try to scream for help, but there is nobody there except for the shadows, who surround you, and close you into the darkness. Your fate has been sealed as the shadows pul you into the depths of the library, where you will forever remain as another secret in the Lost Library of Shadows."
+	},
+	"B22": {
+		"text": "You end up finding a hidden scroll that provides a map of the library, helping you escape easily with valuable information and a safe path out."
+	}
+
+}

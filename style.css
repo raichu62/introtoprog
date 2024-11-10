@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: black;
+}
+
+.container {
+    margin: 50px auto;
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+    background-color: darkviolet;
+    color: azure;
+    border: none;
+    padding: 20px 30px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: darkmagenta;
+}
+
+
+h1, h2 {
+    color: black;
+}
+
+#stop-button {
+    background-color: red; /* button color */
+    color: aure; /* text color */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px; /* Spacing above the button */
+}
+
+#stop-button:hover {
+    background-color: darkred; /* Darker shade on hover */
+}
