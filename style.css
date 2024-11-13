@@ -1,7 +1,11 @@
 body {
+    margin: 0;
+    padding: 0;
+	text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: black;
 }
 
 .container {
@@ -14,27 +18,33 @@ body {
 }
 
 .button {
-    background-color: darkviolet;
-    color: azure;
+    background-color: #007BFF;
+    color: white;
     border: none;
-    padding: 20px 30px;
+    padding: 10px 20px;
     margin: 10px;
     cursor: pointer;
     border-radius: 5px;
+	font-size: 20px;
 }
 
 .button:hover {
-    background-color: darkmagenta;
+    background-color: #0056b3;
 }
 
+h1 {
+    color: #ffffff;
+	  background-color: rgba(0, 0, 0, 0.6);
+}
 
-h1, h2 {
-    color: black;
+h2 {
+    color: #ffffff;
+	text-shadow: 2px 0px 2px black;
 }
 
 #stop-button {
-    background-color: red; /* button color */
-    color: aure; /* text color */
+    background-color: red; /* Example color */
+    color: white; /* Example text color */
     padding: 10px 20px;
     border: none;
     cursor: pointer;
@@ -44,4 +54,70 @@ h1, h2 {
 
 #stop-button:hover {
     background-color: darkred; /* Darker shade on hover */
+}
+
+#help-button {
+    background-color: blue; /* Example color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#help-button:hover {
+    background-color: darkblue; /* Darker shade on hover */
+}
+
+#goodbye-container {
+    background-image: url('images/goodbye.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+}
+
+#welcome-container {
+    background-image: url('images/index.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+}
+
+#choices-summary {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+#choices-summary h3 {
+    color: #333;
+    font-weight: bold;
+}
+
+#choices-summary p {
+    color: #555;
+    margin: 5px 0;
+}
+
+#validation-error {
+    color: #ff4c4c;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.6); /* adds contrast against black */
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
 }

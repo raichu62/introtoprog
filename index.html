@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Story</title>
     <link rel="stylesheet" href="style.css">
+    <title>Welcome to the Interactive Story</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to the Library of Lost Souls</h1>
-        <button id="start-btn" class="button">Start Story</button>
+    <div id="welcome-container">
+        <h1>Welcome to the Interactive Story!</h1>
+		<p><h2>Enter your name to begin:</h2></p>
+        <!--label for="userName"><h2>Enter your name:</h2></label-->
+		<!--input type="text" id="name-input" placeholder="Your name here" /-->
+        <input type="text" id="name-input" placeholder="Your Name" style="font-size:20px">
+        <button class="button" onclick="startStory()">Start</button>
+		<!-- Validation message area -->
+        <p id="validation-error" class="validation-error" ></p>
     </div>
-
-    <script>
-        document.getElementById('start-btn').onclick = function () {
-            window.location.href = 'story.html?t=' + new Date().getTime(); // Cache busting by adding timestamp
-        };
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
+
